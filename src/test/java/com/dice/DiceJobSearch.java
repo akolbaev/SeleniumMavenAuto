@@ -11,11 +11,10 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import org.testng.reporters.XMLReporter;
 
 public class DiceJobSearch {
 	WebDriver dice;
-		// TODO Auto-generated method stub
-		//System.setProperty("webdriver.chrome.driver", "C:\\Users\\HPS\\Documents\\selenium dependencies\\drivers\\chromedriver.exe");
 		@BeforeTest
 		public void setUpWebDriver(){
 			WebDriverManager.chromedriver().setup();
